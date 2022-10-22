@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         resizeMode: "cover",
-        // width: 700,
         height: 700,
     },
     text: {
