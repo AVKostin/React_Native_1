@@ -1,7 +1,6 @@
 import React from "react";
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
 
-<<<<<<< HEAD
 const image = { uri: "https://reactjs.org/logo-og.png" };
 
 const App = () => (
@@ -11,7 +10,7 @@ const App = () => (
         </ImageBackground>
     </View>
 );
-=======
+
 export default function App() {
     return (
         <View style={styles.container}>
@@ -20,7 +19,6 @@ export default function App() {
         </View>
     );
 }
->>>>>>> 5c190c83e408344871a0f88cca50897c5284695d
 
 const styles = StyleSheet.create({
     container: {
@@ -42,5 +40,3 @@ const styles = StyleSheet.create({
         backgroundColor: "#000000c0",
     },
 });
-
-export default App;
